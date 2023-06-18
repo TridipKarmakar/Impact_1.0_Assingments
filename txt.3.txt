@@ -1,0 +1,13 @@
+The threading.Thread class is used in this function to create and manage threads of execution.
+
+In Python, a thread is a separate flow of execution that can run concurrently with other threads. By using threads, you can perform multiple tasks simultaneously, taking advantage of multi-core processors or executing non-blocking operations.
+
+The threading.Thread class provides a way to create and control threads in Python. It allows you to define a target function that will be executed in a separate thread. In this case, the target function is test.
+
+By creating instances of threading.Thread and associating them with the test function, you can run multiple instances of test concurrently in separate threads.
+
+The threading.Thread class provides various methods and attributes to manage threads, such as start() to start the execution of the thread, join() to wait for a thread to complete, and args to pass arguments to the target function.
+
+In the given program, the threading.Thread class is used to create 10 instances of threads, each associated with the test function and a different argument (i) from 0 to 9. This allows you to run the test function concurrently with different inputs in separate threads.
+
+By using threads, you can potentially improve the performance of your program by utilizing multiple CPU cores or handling time-consuming operations asynchronously.

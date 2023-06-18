@@ -1,0 +1,5 @@
+Contact your network administrator: If you're accessing the internet through a corporate network or educational institution, there might be specific restrictions or firewall settings in place that are preventing access to certain websites. Contact your network administrator for assistance.
+
+If none of the above steps resolve the issue, it's possible that there may be a temporary problem with the GitHub server. In such cases, it's best to wait for a while and try again later.
+
+Please note that the steps provided above assume that the issue is related to your local environment or network connectivity. If you require further assistance, it's recommended to reach out to GitHub support for more specific guidance.
